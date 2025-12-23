@@ -1,0 +1,23 @@
+const quiz = [
+    {
+        question: "What is HTML?",
+        options: ["Programming language", "Markup language", "Database", "OS"],
+        answer: 1
+    },
+    {
+        question: "CSS is used for?",
+        options: ["Logic", "Structure", "Styling", "Database"],
+        answer: 2
+    },
+    {
+        question: "JavaScript is used for?",
+        options: ["Styling", "Markup", "Logic", "Design"],
+        answer: 2
+    }
+];
+
+let index = 0;
+let score = 0;
+
+function loadQuestion() {
+    document.getElementById("question
